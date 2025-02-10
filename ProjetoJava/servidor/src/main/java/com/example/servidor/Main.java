@@ -74,7 +74,7 @@ public class Main {
         List<List<String>> percentuais = resultado.getPercentuais_mensais();
         for (List<String> percentual : percentuais) {
             String mesAno = percentual.get(0);
-            String valor = percentual.get(1).replace(".", ","); // 🔥 Troca ponto por vírgula na exibição
+            String valor = percentual.get(1).replace(".", ","); 
             System.out.printf("  -- %s = %s%%%n", mesAno, valor);
         }
         System.out.printf("- Menor Percentual: %s%n", resultado.getMenor_percentual().replace(".", ","));
