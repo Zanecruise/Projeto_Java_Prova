@@ -36,7 +36,7 @@ public class ResultadoDTO {
     public double getValor_atualizado() { return valor_atualizado; }
     public void setValor_atualizado(double valor_atualizado) { this.valor_atualizado = valor_atualizado; }
 
-    public String getPercentual_final() { return percentual_final; }  // 🔥 Agora retorna como String
+    public String getPercentual_final() { return percentual_final; } 
     public void setPercentual_final(String percentual_final) { this.percentual_final = percentual_final; }
 
     public BigDecimal getFator_multiplicacao() { return fator_multiplicacao; }
